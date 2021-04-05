@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.everis.becakotlinmvvm.model.HolidayModel
+import com.everis.becakotlinmvvm.repository.HolidayRepository
 
 class HolidayViewModel: ViewModel() {
     
@@ -11,7 +12,8 @@ class HolidayViewModel: ViewModel() {
     var mutableLiveData: MutableLiveData<List<HolidayModel>>? = null
 
     init {
-        holidayRepository = HolidayRepository()
+        holidayRepository =
+            HolidayRepository()
     }
 
     fun getHolidays(): LiveData<List<HolidayModel>> {

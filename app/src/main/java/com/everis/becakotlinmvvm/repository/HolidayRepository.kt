@@ -1,4 +1,4 @@
-package com.everis.becakotlinmvvm
+package com.everis.becakotlinmvvm.repository
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
