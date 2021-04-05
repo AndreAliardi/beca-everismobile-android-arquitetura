@@ -2,6 +2,8 @@ package com.everis.becakotlinmvvm
 
 import android.util.Log
 import androidx.lifecycle.MutableLiveData
+import com.everis.becakotlinmvvm.api.ApiInterface
+import com.everis.becakotlinmvvm.api.RetrofitClient
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
