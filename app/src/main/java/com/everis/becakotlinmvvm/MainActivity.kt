@@ -9,7 +9,7 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.everis.becakotlinmvvm.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
-    // teste
+
     val TAG = javaClass.simpleName
 
     lateinit var holidayAdapter: HolidayAdapter
